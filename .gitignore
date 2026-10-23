@@ -218,3 +218,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+notforGIT/lecture_06_updated.ipynb
+notforGIT/students_with_header.txt
+notforGIT/Task_1.py
+notforGIT/Task_2.py
+notforGIT/unstructured_leads.txt
