@@ -1,0 +1,9 @@
+﻿I used ChatGPT/Codex as a support tool while working on Task 5 - Create Full Workflow. I assembled the workflow in my notebook using the functions from the earlier tasks and asked for guidance and feedback during the process.
+
+The conversation helped me work through the order of the steps: finding and reading log files, collecting transactions, creating the DataFrame, cleaning outliers, correcting NOK prices, generating reports, and saving the results. I received explanations and some code examples, including how to collect records with extend() and export the reports to CSV and JSON. I made the changes in the notebook myself.
+
+I also asked the AI to review my code. The review caught that I had divided NOK prices by 10 instead of multiplying them and pointed out an incorrect type annotation in log_parser. It suggested improvements to encoding handling and the regex for transaction statuses. These suggestions were not automatically applied to my notebook.
+
+As an additional check, the AI ran the calculations on the project data and compared them with the four output files. The saved results matched the recalculated results for the 720 transactions. This provided a check of the current dataset, rather than a guarantee that the code handles every possible input.
+
+My use of AI involved guidance, explanations, code examples, and feedback on my implementation. This summary was drafted with AI assistance.
