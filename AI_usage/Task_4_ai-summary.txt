@@ -1,0 +1,7 @@
+I used ChatGPT/Codex for guidance while working on Task 4 – Data Analysis using Pandas. The tool read the notebook and assignment text to understand the functions from Tasks 1–3. I requested step-by-step guidance, pseudocode, and explanations, and asked it not to modify the notebook directly.
+
+The guidance covered creating DataFrames, converting timestamps, setting a datetime index, grouping with groupby, resampling into hourly intervals with resample, and summing values with pivot_table. For Task 4.4, I received help counting sales and refunds, converting Pandas Series to NumPy arrays, and reusing compute_refund_ratio from Task 3.2.
+
+The AI also provided code examples, function skeletons, suggested docstrings, and test cells. I wrote and adapted the code in the notebook and requested reviews along the way. These reviews identified issues such as incorrect grouping, incorrect status names, and the variable df not being defined outside a function. The tool explained the difference between local variables and variables in the notebook’s active session.
+
+Finally, the AI reviewed the Task 4 functions and ran them on a small synthetic dataset, including cases with missing status columns. This checked selected cases but did not constitute a complete test of the full workflow. AI was also used to troubleshoot a Git merge conflict and problems involving the Python environment and Windows Smart App Control.
